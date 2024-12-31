@@ -11,4 +11,8 @@ export default defineConfig({
     css: {
         postcss: './postcss.config.js',
     },
+    build: {
+        assetsInlineLimit: 0,
+    },
+    base: '/',
 })

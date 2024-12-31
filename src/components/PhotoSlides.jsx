@@ -32,16 +32,16 @@ const PhotoSlides = () => {
             {/* Gradients - only show on desktop */}
             <div className="hidden md:block absolute left-0 top-0 h-full w-40 bg-gradient-to-r from-white via-white to-transparent z-20" />
             <div className="hidden md:block absolute right-0 top-0 h-full w-40 bg-gradient-to-l from-white via-white to-transparent z-20" />
-            
+
             {/* Scrolling content */}
             <div className="flex animate-scroll-smooth">
               {duplicatedTopRow.map((src, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="flex-none w-44 h-44 shrink-0 mx-2"
                 >
-                  <img 
-                    src={src} 
+                  <img
+                    src={src}
                     alt={`Carousel image ${index + 1}`}
                     className="w-full h-full rounded-lg object-cover"
                   />
@@ -58,17 +58,17 @@ const PhotoSlides = () => {
             {/* Gradients - only show on desktop */}
             <div className="hidden md:block absolute left-0 top-0 h-full w-40 bg-gradient-to-r from-white via-white to-transparent z-20" />
             <div className="hidden md:block absolute right-0 top-0 h-full w-40 bg-gradient-to-l from-white via-white to-transparent z-20" />
-            
+
             {/* Scrolling content */}
             <div className="flex animate-scroll-smooth-reverse">
               {duplicatedBottomRow.map((src, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="flex-none w-44 h-44 shrink-0 mx-2"
                 >
-                  <img 
-                    src={src} 
-                    alt={`Carousel image ${index + 1}`}
+                  <img
+                    src={src}
+                    alt="Image"
                     className="w-full h-full rounded-lg object-cover"
                   />
                 </div>
