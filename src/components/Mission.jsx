@@ -49,7 +49,7 @@ const Mission = () => {
 
 
 
-          <div className='flex md:flex-row flex-col gap-20'>
+          <div className='flex md:flex-row flex-col gap-20 md:text-left text-center'>
             {/* Name cards */}
             <div className='flex flex-col max-w-sm shadow-md rounded-3xl bg-white-500'>
               <p className="text-gray-700 p-4 pb-2">

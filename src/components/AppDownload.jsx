@@ -10,7 +10,7 @@ const AppDownload = () => {
       <div className="max-w-7xl mx-auto px-4 py-16 md:py-24">
         <div className="flex flex-col md:flex-row items-center justify-between">
           {/* Text Content */}
-          <div className="w-full md:w-1/2 text-white mb-8 md:mb-0">
+          <div className="w-full md:w-1/2 md:text-left text-center text-white mb-8 md:mb-0">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 md:mb-6">
               Download
              App

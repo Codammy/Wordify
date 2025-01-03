@@ -199,8 +199,8 @@ const Navbar = () => {
     { title: 'Home', id: 'nav' },
     { title: 'About', id: 'about' },
     { title: 'Support', id: 'support' },
-    { title: 'For Artists', id: 'hero' },
- 
+    { title: 'For Artists', id: '' },
+
   ];
 
   // Add shadow to navbar after scrolling
@@ -243,9 +243,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full px-4 py-4 md:pt-8 fixed top-0 left-0 bg-white z-50 transition-shadow ${
-        scrolled ? 'shadow-lg' : ''
-      }`}
+      className={`w-full px-4 py-4 md:pt-8 fixed top-0 left-0 bg-white z-50 transition-shadow ${scrolled ? 'shadow-lg' : ''
+        }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
@@ -261,11 +260,10 @@ const Navbar = () => {
               to={item.id}
               smooth={true}
               duration={500}
-              className={`px-4 py-2 text-sm cursor-pointer ${
-                activeSection === item.id
+              className={`px-4 py-2 text-sm cursor-pointer ${activeSection === item.id
                   ? 'text-red-500 border-b-2 border-red-500'
                   : 'text-gray-600 hover:text-gray-900'
-              }`}
+                }`}
             >
               {item.title}
             </Link>
@@ -301,9 +299,8 @@ const Navbar = () => {
 
         {/* Mobile Slide-out Menu */}
         <div
-          className={`fixed top-0 right-0 w-64 h-full bg-white z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
-            isOpen ? 'translate-x-0' : 'translate-x-full'
-          }`}
+          className={`fixed top-0 right-0 w-64 h-full bg-white z-50 transform transition-transform duration-300 ease-in-out md:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'
+            }`}
         >
           {/* Menu Navbar */}
           <div className="flex justify-between items-center p-4 border-b">
@@ -325,9 +322,8 @@ const Navbar = () => {
                 to={item.id}
                 smooth={true}
                 duration={500}
-                className={`block px-6 py-4 text-sm ${
-                  activeSection === item.id ? 'text-red-500' : 'text-gray-900'
-                } hover:bg-gray-50`}
+                className={`block px-6 py-4 text-sm ${activeSection === item.id ? 'text-red-500' : 'text-gray-900'
+                  } hover:bg-gray-50`}
                 onClick={() => setIsOpen(false)} // Close menu on link click
               >
                 {item.title}

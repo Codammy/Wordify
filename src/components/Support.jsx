@@ -10,7 +10,7 @@ const Support = () => {
             {/* Text Content */}
             <div className="w-full md:w-1/2 space-y-6">
               <div className="text-left mb-16 relative">
-                <h2 className="text-4xl font-bold mb-2">Join Community</h2>
+                <h2 className="text-4xl font-bold mb-2 md:text-left text-center">Join Community</h2>
                 {/* Curved underline SVG */}
                 <svg
                   className="absolute left-1/4 -translate-x-1/2 -bottom-2"
@@ -27,10 +27,10 @@ const Support = () => {
                   />
                 </svg>
               </div>
-              <p className="text-gray-300 text-sm md:text-base">
+              <p className="text-gray-300 text-sm md:text-base md:text-left text-center">
                 The scope of Wordify is nothing less than what our Lord Jesus said and is still saying to us: <span className="italic"> &quot; And he said unto them, Go ye into all the world, and preach the gospel to every creature.&quot;</span>
               </p>
-              <button className="bg-red-600 text-white px-8 py-2.5 rounded hover:bg-red-700 transition-colors">
+              <button className="bg-red-600 text-white px-8 py-2.5 rounded md:text-left text-center hover:bg-red-700 transition-colors">
                 Support
               </button>
             </div>
