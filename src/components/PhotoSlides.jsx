@@ -1,32 +1,32 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-// import r11 from '../assets/images/r11.png';
-// import r12 from '../assets/images/r11.png';
-// import r13 from '../assets/images/r11.png';
-// import r14 from '../assets/images/r11.png';
-// import r15 from '../assets/images/r11.png';
+import r11 from '../assets/images/r11.png';
+import r12 from '../assets/images/r11.png';
+import r13 from '../assets/images/r11.png';
+import r14 from '../assets/images/r11.png';
+import r15 from '../assets/images/r11.png';
 
-// import r22 from '../assets/images/r22.png';
-// import r23 from '../assets/images/r23.png';
-// import r24 from '../assets/images/r24.png';
-// import r25 from '../assets/images/r25.png';
+import r22 from '../assets/images/r22.png';
+import r23 from '../assets/images/r23.png';
+import r24 from '../assets/images/r24.png';
+import r25 from '../assets/images/r25.png';
 
 
 const PhotoSlides = () => {
   const topRowImages = [
-    './src/assets/images/r11.png',
-    './src/assets/images/r12.png',
-    './src/assets/images/r13.png',
-    './src/assets/images/r14.png',
-    './src/assets/images/r15.png',
+    r11,// './src/assets/images/r11.png',
+    r12,// './src/assets/images/r12.png',
+    r13,// './src/assets/images/r13.png',
+    r14,// './src/assets/images/r14.png',
+    r15// './src/assets/images/r15.png',
   ];
 
   const bottomRowImages = [
-    './src/assets/images/r23.png',
-    './src/assets/images/r22.png',
-    './src/assets/images/r11.png',
-    './src/assets/images/r24.png',
-    './src/assets/images/r25.png',
+    r23,// './src/assets/images/r23.png',
+    r22,// './src/assets/images/r22.png',
+    r11,// './src/assets/images/r11.png',
+    r24,// './src/assets/images/r24.png',
+    r25,// './src/assets/images/r25.png',
   ];
 
   // Create duplicates for smooth scrolling
